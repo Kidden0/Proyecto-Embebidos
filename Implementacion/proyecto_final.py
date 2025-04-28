@@ -1,0 +1,1 @@
+# Archivo de proyecto final de control de puerta basado en PIN - Código previamente proporcionado.

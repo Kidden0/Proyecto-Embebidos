@@ -1,0 +1,1 @@
+# Código de prueba para el LCD - Código previamente proporcionado.

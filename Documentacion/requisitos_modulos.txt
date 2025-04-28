@@ -1,0 +1,21 @@
+Requisitos de Módulos/Componentes
+
+Teclado Matricial 4x4:
+- Entrada digital mediante 8 pines GPIO.
+- Captura de 4 caracteres numéricos.
+
+Pantalla LCD 16x2 I2C:
+- Visualización de mensajes de bienvenida, ingreso de PIN, validación y errores.
+- Conexión vía protocolo I2C (SDA/SCL).
+
+LED:
+- Indicador visual de acceso concedido.
+- Activación y desactivación controlada por GPIO17.
+
+Servo Motor SG90:
+- Simulación de apertura de puerta.
+- Control de posición mediante PWM en GPIO18.
+
+Raspberry Pi:
+- Control principal del flujo lógico.
+- Manejo de entrada, procesamiento y salidas de control.

@@ -1,0 +1,12 @@
+Justificación del Proyecto
+
+Este proyecto de sistemas embebidos tiene como objetivo implementar un sistema de control de acceso mediante PIN utilizando una Raspberry Pi 4 Model B. 
+
+Se seleccionó la Raspberry Pi debido a:
+- Su capacidad de procesamiento superior frente a microcontroladores tradicionales como el PIC16F877A.
+- Integración nativa de puertos I2C, PWM y múltiples GPIOs.
+- Facilidad de programación usando Python 3.
+- Conectividad a red (Wi-Fi y Ethernet).
+- Escalabilidad para futuros desarrollos, como conectividad en red o control remoto.
+
+El proyecto demuestra la implementación de lectura de entradas (teclado 4x4), control de salidas digitales (LED, Servo) y manejo de periféricos de comunicación (LCD I2C).

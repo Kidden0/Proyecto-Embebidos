@@ -1,0 +1,20 @@
+Requisitos del Sistema
+
+Requisitos Funcionales:
+- Leer un PIN de 4 dígitos desde un teclado matricial 4x4.
+- Validar el PIN ingresado contra un valor predefinido.
+- Encender un LED y mover un servo motor al validar correctamente el PIN.
+- Mostrar mensajes de estado en un LCD 16x2 vía I2C.
+
+Requisitos No Funcionales:
+- Tiempo de respuesta menor a 2 segundos.
+- Alta fiabilidad en lectura de teclas.
+- Protección contra errores de entrada.
+- Sistema modular y mantenible.
+
+Requerimientos de Hardware:
+- Raspberry Pi 4B.
+- Teclado 4x4.
+- LED con resistencia limitadora.
+- Servo SG90.
+- Display LCD 16x2 con adaptador I2C.

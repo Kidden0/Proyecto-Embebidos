@@ -1,0 +1,4 @@
+Diagrama de Conexiones
+
+Descripción de las conexiones físicas del sistema embebido de control de puerta:
+[Conexiones documentadas en detalle según el diseño anterior]
