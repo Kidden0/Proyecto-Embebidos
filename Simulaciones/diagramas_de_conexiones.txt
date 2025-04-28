@@ -1,4 +1,35 @@
-Diagrama de Conexiones
+# Diagrama de Conexiones
 
 Descripción de las conexiones físicas del sistema embebido de control de puerta:
-[Conexiones documentadas en detalle según el diseño anterior]
+
+1. Conexiones del LED:
+   - Ánodo del LED (pata larga) conectado al GPIO17 de la Raspberry Pi (pin físico 11) a través de una resistencia de 220Ω.
+   - Cátodo del LED (pata corta) conectado a GND (pin físico 6).
+
+2. Conexiones del Servo SG90:
+   - Cable rojo (VCC) conectado al pin físico 2 (5V) de la Raspberry Pi.
+   - Cable marrón o negro (GND) conectado a pin físico 6 (GND) de la Raspberry Pi.
+   - Cable naranja (señal PWM) conectado a GPIO18 (pin físico 12).
+
+3. Conexiones del Teclado 4x4:
+   - 8 pines del teclado conectados a los siguientes GPIO:
+     - Fila 1 -> GPIO5 (pin 29)
+     - Fila 2 -> GPIO6 (pin 31)
+     - Fila 3 -> GPIO13 (pin 33)
+     - Fila 4 -> GPIO19 (pin 35)
+     - Columna 1 -> GPIO12 (pin 32)
+     - Columna 2 -> GPIO16 (pin 36)
+     - Columna 3 -> GPIO20 (pin 38)
+     - Columna 4 -> GPIO21 (pin 40)
+
+4. Conexiones del LCD 16x2 I2C:
+   - GND del módulo I2C a pin físico 6 (GND).
+   - VCC del módulo I2C a pin físico 2 (5V).
+   - SDA del módulo I2C a GPIO2 (pin físico 3).
+   - SCL del módulo I2C a GPIO3 (pin físico 5).
+
+Notas adicionales:
+- Se utilizó una protoboard estándar y cables jumper macho-macho.
+- La alimentación de la Raspberry Pi fue suministrada mediante su cargador oficial de 5V 3A.
+
+(Se recomienda agregar imágenes de las conexiones físicas para mayor claridad.)
