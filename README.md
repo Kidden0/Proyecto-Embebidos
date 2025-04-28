@@ -18,7 +18,23 @@ Este proyecto implementa un sistema de control de acceso mediante un teclado 4x4
   - smbus2
   - adafruit-matrixkeypad
 ## Estructura de Carpetas
-mi_proyecto_embebido/ ├── Documentacion/ │ ├── justificacion.txt │ ├── requisitos_sistema.txt │ ├── requisitos_modulos.txt │ └── diseno_diagramas/ │ ├── diagrama_bloques.png │ └── diagrama_flujo.png ├── Implementacion/ │ ├── proyecto_final.py │ ├── lcd_test.py │ ├── led_test.py │ ├── servo_test.py ├── Simulaciones/ │ └── diagramas de conexiones ├── README.md
+mi_proyecto_embebido/
+|-- Documentacion/
+|   |-- justificacion.txt
+|   |-- requisitos_sistema.txt
+|   |-- requisitos_modulos.txt
+|   |-- diseno_diagramas/
+|       |-- diagrama_bloques.png
+|       |-- diagrama_flujo.png
+|-- Implementacion/
+|   |-- proyecto_final.py
+|   |-- lcd_test.py
+|   |-- led_test.py
+|   |-- servo_test.py
+|-- Simulaciones/
+|   |-- diagramas de conexiones
+|-- README.md
+
 
 ## Instrucciones de uso
 1. Activar entorno virtual.
