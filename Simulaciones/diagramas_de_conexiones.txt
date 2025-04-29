@@ -32,4 +32,3 @@ Notas adicionales:
 - Se utilizó una protoboard estándar y cables jumper macho-macho.
 - La alimentación de la Raspberry Pi fue suministrada mediante su cargador oficial de 5V 3A.
 
-(Se recomienda agregar imágenes de las conexiones físicas para mayor claridad.)
